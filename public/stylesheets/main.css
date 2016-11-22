@@ -1,5 +1,36 @@
 body {
-    background: orange;
+    background: #0A8204;
+}
+
+.navbar-default {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    
+}
+
+.jumbotron {
+    background: url(https://hd.unsplash.com/photo-1455763916899-e8b50eca9967);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+    height: 20%;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron div {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: rgba(10, 130, 4, .6);
+}
+
+.row.text-center {
+    margin-top: 5%;
 }
 
 .thumbnail img {
@@ -14,9 +45,22 @@ body {
     padding: 9px;
 }
 
+section {
+    background: white;
+    margin-top: 0;
+}
+
+section h1 {
+    text-align: center;
+}
+
 #footer {
     text-align: center;
     padding: 15px;
+}
+
+#footer a {
+    color: white;
 }
 
 #delete-form {
