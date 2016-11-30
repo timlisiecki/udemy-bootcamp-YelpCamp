@@ -45,6 +45,11 @@ body {
     padding: 9px;
 }
 
+.gallery img {
+    height: 200px;
+    width: auto;
+}
+
 section {
     background: white;
     margin-top: 0;
