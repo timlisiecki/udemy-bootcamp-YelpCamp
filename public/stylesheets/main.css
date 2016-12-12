@@ -2,22 +2,24 @@ body {
     background: #0A8204;
 }
 
+a {
+    color: white;
+}
 .navbar-default {
     margin-bottom: 0;
     margin-top: 0;
     border-radius: 0;
-    color: white;
-    background: #0A8204;
-    border: #0A8204;
+    padding: 15px;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: #0A8204;
+    font-size: 1.2em;
 }
 
 .navbar-default .navbar-brand {
     font-size: 2em;
-    color: white;
+    color: #0A8204;
 }
 
 header {
@@ -48,7 +50,6 @@ header {
 
 .thumbnail img {
     width: 100%;
-    vertical-align: middle
 }
 
 .thumbnail {
@@ -65,7 +66,6 @@ header {
 }
 
 .gallery img {
-    height: 200px;
     width: auto;
 }
 
@@ -107,4 +107,11 @@ section h1 {
 
 #delete-form {
     display: inline;
+}
+
+@media screen and (min-width: 996px) {
+    .gallery img {
+        height: 200px;
+        width: auto;
+    }
 }

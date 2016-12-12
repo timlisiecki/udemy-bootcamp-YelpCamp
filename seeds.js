@@ -8,7 +8,8 @@ var data = [
         image: "http://www.fs.usda.gov/Internet/FSE_MEDIA/stelprdb5259404.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
@@ -16,15 +17,17 @@ var data = [
         image: "https://www.nps.gov/nabr/planyourvisit/images/campground_utahscyncty.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Canyon Floor",
-        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnuoc9GB0Vwrssw_kfcgLBXRKseieTB-ydDK2Iju5mJSPquR9i",
+        name: "Zion Narrows",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2015/06/Jeff-Reid-Zion-Narrows-CampTrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
@@ -32,7 +35,8 @@ var data = [
         image: "https://farm4.staticflickr.com/3211/3062207412_03acc28b80.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
@@ -40,95 +44,107 @@ var data = [
         image: "http://cdn.camptrend.com/wp-content/uploads/2014/04/Plural-Photography-Camping-on-the-Kern-River_CampTrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Desert Mesa",
-        image: "https://www.nps.gov/nabr/planyourvisit/images/campground_utahscyncty.jpg",
+        name: "Denali Lights",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2016/12/Daryll-Vispo-Denali-Lights-camptrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Canyon Floor",
-        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnuoc9GB0Vwrssw_kfcgLBXRKseieTB-ydDK2Iju5mJSPquR9i",
+        name: "Monument Valley",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2016/10/Kevin-Kaminski-Monument-Valley-Sunrise-camptrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Granite Hill",
-        image: "https://farm4.staticflickr.com/3211/3062207412_03acc28b80.jpg",
+        name: "Reflection Canyon",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2016/06/Julia-Reflection-Canyon-camptrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Cloud's Rest",
-        image: "http://www.fs.usda.gov/Internet/FSE_MEDIA/stelprdb5259404.jpg",
+        name: "Stonewall Peak",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2016/05/Tyler-Reeves-Stonewall-Peak-camptrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Desert Mesa",
-        image: "https://www.nps.gov/nabr/planyourvisit/images/campground_utahscyncty.jpg",
+        name: "Trail Canyon",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2016/04/Ryan-Morgan-Trail-Canyon-camptrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Canyon Floor",
-        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnuoc9GB0Vwrssw_kfcgLBXRKseieTB-ydDK2Iju5mJSPquR9i",
+        name: "Lago Pehoe",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2016/03/Austin-Trigg-Pisco-on-Lago-Pehoe-camptrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Granite Hill",
-        image: "https://farm4.staticflickr.com/3211/3062207412_03acc28b80.jpg",
+        name: "Resurrection Bay",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2016/03/Bradn-Frankenfield-Resurrection-Bay-camptrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Cloud's Rest",
-        image: "http://www.fs.usda.gov/Internet/FSE_MEDIA/stelprdb5259404.jpg",
+        name: "Roof of the World",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2015/11/Nate-Roof-Of-The-World-camptrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Desert Mesa",
-        image: "https://www.nps.gov/nabr/planyourvisit/images/campground_utahscyncty.jpg",
+        name: "New Plymouth",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2015/11/Jeff-Nass-New-Plymouth-CampTrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Canyon Floor",
-        image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnuoc9GB0Vwrssw_kfcgLBXRKseieTB-ydDK2Iju5mJSPquR9i",
+        name: "Lost Coast Trail",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2015/10/Alyx-Schwarz-Lost-Coast-Trail-CampTrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     },
     {
-        name: "Granite Hill",
-        image: "https://farm4.staticflickr.com/3211/3062207412_03acc28b80.jpg",
+        name: "Peyto Lake",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2015/09/Joel-Schatt-Peyto-Lake-CampTrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
-            username: "Colt"
+            username: "Colt",
+            id: "584ef52f624f151b0ce85317"
         }
     }
 ]
@@ -149,7 +165,8 @@ function seedDB(){
                         {
                             text: "This place is great but I wish there was wifi.",
                             author: {
-                                username: "Homer"
+                                username: "Homer",
+                                id: "584f07fe049194c41197d0a9"
                             }
                         }, function(err, comment){
                             if(err){
@@ -159,7 +176,7 @@ function seedDB(){
                                 campground.save();
                                 console.log("Created new comment.");
                             }
-                        });
+                    });
                 }
             });
         });
