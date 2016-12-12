@@ -36,8 +36,8 @@ var data = [
         }
     },
     {
-        name: "Cloud's Rest",
-        image: "http://www.fs.usda.gov/Internet/FSE_MEDIA/stelprdb5259404.jpg",
+        name: "Salmon River",
+        image: "http://cdn.camptrend.com/wp-content/uploads/2014/04/Plural-Photography-Camping-on-the-Kern-River_CampTrend.jpg",
         description: "Bacon ipsum dolor amet beef ribs meatball tongue doner beef meatloaf. Cow pastrami shank chicken venison, bacon picanha ground round pork loin pork chop fatback. Shank jerky doner tail meatball tri-tip frankfurter pancetta cow corned beef pastrami porchetta cupim. Jerky sausage landjaeger kevin. Kevin shank chicken picanha drumstick swine brisket tail bresaola ground round. Landjaeger short loin ground round, corned beef swine bresaola venison sirloin doner.",
         author: {
             username: "Colt"
