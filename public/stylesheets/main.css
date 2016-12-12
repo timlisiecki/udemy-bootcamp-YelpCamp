@@ -6,15 +6,26 @@ body {
     margin-bottom: 0;
     margin-top: 0;
     border-radius: 0;
-    opacity: 0.5;
+    color: white;
+    background: #0A8204;
+    border: #0A8204;
 }
 
-.navbar-brand {
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
     font-size: 2em;
+    color: white;
+}
+
+header {
+    height: 20%;
 }
 
 .jumbotron {
-    background: url(https://hd.unsplash.com/photo-1455763916899-e8b50eca9967);
+    background: url(http://i.imgur.com/TVGe0Ef.jpg);
     background-position: center;
     background-size: cover;
     margin-bottom: 0;
@@ -41,6 +52,11 @@ body {
 
 .thumbnail {
     padding: 0;
+    padding-bottom: 5px;
+    border: none;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 
+                0 4px 25px 0px rgba(0, 0, 0, 0.12), 
+                0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
 
 .thumbnail .caption-full {
@@ -50,6 +66,23 @@ body {
 .gallery img {
     height: 200px;
     width: auto;
+}
+
+.form {
+    text-align: center;
+    width: 50%;
+}
+
+.form-control {
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 section {
@@ -63,6 +96,7 @@ section h1 {
 
 #footer {
     text-align: center;
+    margin-top: 5%;
     padding: 15px;
 }
 
