@@ -150,6 +150,12 @@ var data = [
 ]
   
 function seedDB(){
+    Comment.remove({}, function(err){
+        if(err){
+            console.log(err);
+        }
+        console.log("removed comments!");
+    });
     Campground.remove({}, function(err){
         if(err){
             console.log(err);
